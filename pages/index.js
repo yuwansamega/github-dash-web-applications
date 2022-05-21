@@ -51,7 +51,7 @@ const Home = () => {
                     return (
                       <>
                         <div key={item.id} className='flex flex-col justify-between p-5 w-[90%] h-32 border-2 border-gray-300 rounded-md hover:bg-gray-500 hover:bg-opacity-40'>
-                          <a href={item.svn_url} className="cursor-pointer hover:underline hover:underline-offset-1 hover:decoration-pink-500" target='_blank'>
+                          <a href={item.svn_url} rel="noreferrer" className="cursor-pointer hover:underline hover:underline-offset-1 hover:decoration-pink-500" target='_blank'>
                             <h1 className='text-slate-100 text-xl font-medium'>{item.name}</h1>
                           </a>
                           <p className='font-normal text-sm text-gray-300'>{item.created_at.slice(0, 10)}</p>
@@ -64,7 +64,7 @@ const Home = () => {
       </div>
 
       <div className='w-full bg-[#393E46] pt-8 pb-8 flex justify-center'>
-          <h1 className='text-white text-base'><span className='text-pink-600 font-medium'>Yuwan Samega</span> made with ❤️ &copy;2022 | All Right Reserved. </h1>
+          <h1 className='text-white text-base'><span className='text-pink-600 font-medium'>Yuwan Samega</span> made with ❤️ `&copy;`2022 | All Right Reserved. </h1>
       </div>  
       
       
