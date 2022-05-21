@@ -64,7 +64,7 @@ const Home = () => {
       </div>
 
       <div className='w-full bg-[#393E46] pt-8 pb-8 flex justify-center'>
-          <h1 className='text-white text-base'><span className='text-pink-600 font-medium'>Yuwan Samega</span> made with ❤️ `&copy;`2022 | All Right Reserved. </h1>
+          <h1 className='text-white text-base'><span className='text-pink-600 font-medium'>Yuwan Samega</span> made with ❤️ &copy;2022 | All Right Reserved. </h1>
       </div>  
       
       
