@@ -24,7 +24,7 @@ const Home = () => {
         </title>
       </Head>
 
-      <div className='h-fit w-full flex justify-center bg-[#121417] pb-24' >
+      <div className='h-fit min-h-[100vh] w-full flex justify-center bg-[#121417] pb-24' >
         <div className='flex flex-col w-[70%] items-center'>
           <div className='text-slate-100 text-2xl font-medium mt-12'>
             <h1>Yuwan's Github Dashboard</h1>
